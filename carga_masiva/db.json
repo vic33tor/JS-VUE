@@ -1,0 +1,39 @@
+{
+  "eventos": [
+    {
+      "NºSerie": "1",
+      "Modelo": "Windows",
+      "Reservado": "Si",
+      "Fecha Reserva": "12/02/2022",
+      "id": 1
+    },
+    {
+      "NºSerie": "3",
+      "Modelo": "Microsoft",
+      "Reservado": "Si",
+      "Fecha Reserva": "14/02/2022",
+      "id": 2
+    },
+    {
+      "NºSerie": "2",
+      "Modelo": "Sony",
+      "Reservado": "No",
+      "Fecha Reserva": "",
+      "id": 3
+    },
+    {
+      "NºSerie": "4",
+      "Modelo": "Apple",
+      "Reservado": "Si",
+      "Fecha Reserva": "15/02/2022",
+      "id": 4
+    },
+    {
+      "NºSerie": "5",
+      "Modelo": "Windows",
+      "Reservado": "No",
+      "Fecha Reserva": "",
+      "id": 5
+    }
+  ]
+}

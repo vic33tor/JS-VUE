@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Le damos el espacio que puede controlar Vue-->
+    <div id="miApp">
+        <h2>Introduce elemento en la lista</h2>
+        <input type="text" v-model.trim="newElemento" @keyup.enter="addElemento"/>
+        <ul>
+            <li v-for="(elemento, index) in listaElementos" :key="index">
+               <span> {{ elemento }}</span> 
+               <button @click="eliminaElemento(elemento)">🗑️</button>
+            </li>
+        </ul>
+    </div>
+
+     <!-- Cargamos Vue desde el CDN -->
+     <script src="https://unpkg.com/vue@next"></script>
+     <!-- Importamos nuestro script donde esta Vue -->
+     <script src="app_ej4.js"></script>
+</body>
+</html>

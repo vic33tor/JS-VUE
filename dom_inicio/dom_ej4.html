@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="anade">anade</button>
+    <button id="borrar">borrar</button>
+    <input type="text" id="input"></input>
+    <ul id="lista"></ul>
+    <script>
+        const btn = document.getElementById("anade");
+        btn.addEventListener("click",()=>{
+            const lista = document.getElementById('lista');
+            const palabra = document.getElementById('input').value;
+            document.getElementById('input').focus();
+            document.getElementById('input').value =""
+            const li = document.createElement("li");
+            li.textContent = palabra;
+            lista.appendChild(li);
+            
+        })
+
+        const btn1 = document.getElementById("borrar");
+        btn1.addEventListener("click",() =>{
+            const a = document.getElementById("lista");
+            const p = document.getElementById("input").value;
+            [...a.children].map(x=>x.textContent===p ? x.remove(): x);
+            /*for(let i = 0; i<a.children.length; i++){
+                if(a.children[i].textContent == p){
+                    a.removeChild(a.children[i]);
+                }
+            }*/
+        })
+    </script>
+</body>
+</html>

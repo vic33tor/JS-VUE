@@ -1,0 +1,39 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Victor",
+      "apellido1": "Gil",
+      "apellido2": "Nuño",
+      "nivel": "Usuario",
+      "id": 1
+    },
+    {
+      "nombre": "Arturo",
+      "apellido1": "Martin",
+      "apellido2": "Paquete",
+      "nivel": "Usuario",
+      "id": 2
+    },
+    {
+      "nombre": "Pablo",
+      "apellido1": "Santos",
+      "apellido2": "Borre",
+      "nivel": "Usuario",
+      "id": 3
+    },
+    {
+      "nombre": "Isra",
+      "apellido1": "Jaramillo",
+      "apellido2": "Fernandez",
+      "nivel": "Usuario",
+      "id": 4
+    },
+    {
+      "nombre": "Juan",
+      "apellido1": "Hernandez",
+      "apellido2": "Hernandez",
+      "nivel": "Usuario",
+      "id": 5
+    }
+  ]
+}

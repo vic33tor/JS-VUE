@@ -1,0 +1,34 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Victor",
+      "contraseña": "1234a",
+      "nivel": "Administrador"
+    },
+    {
+      "id": 2,
+      "nombre": "Arturo",
+      "contraseña": "4321z",
+      "nivel": "Administrador"
+    },
+    {
+      "id": 3,
+      "nombre": "Pablo",
+      "contraseña": "5678b",
+      "nivel": "Usuario"
+    },
+    {
+      "id": 4,
+      "nombre": "Juan",
+      "contraseña": "2346y",
+      "nivel": "Usuario"
+    },
+    {
+      "id": 7,
+      "nombre": "Juan",
+      "contraseña": "2346a",
+      "nivel": "Usuario"
+    }
+  ]
+}

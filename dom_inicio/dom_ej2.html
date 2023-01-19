@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="anade">boton</button>
+    <input type="text" id="input"></input>
+    <script>
+        const btn = document.getElementById("anade");
+        btn.addEventListener("click",()=>{
+            const palabra = document.getElementById('input').value;
+            document.getElementById('input').focus();
+            document.getElementById('input').value =""
+            console.log(palabra)
+        })
+    </script>
+</body>
+</html>
