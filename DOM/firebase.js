@@ -34,3 +34,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore();
 //CRUD
+
+export const dameDocs = (ref) => getDocs(collection(db, ref));
+export const ondameDocs = (ref, callback) =>
+  onSnapshot(collection(db, ref), callback);
