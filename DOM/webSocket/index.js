@@ -5,6 +5,9 @@ const misRespuestas = document.getElementById("respuestas");
 const botonCierre = document.getElementById("cierraConexion");
 const botonConecta = document.getElementById("abreConexion");
 const conexiones = document.getElementById("conexiones");
+const botonNuevos = document.getElementById("mostrarMsg");
+const miMsg = document.getElementById("nuevos");
+let lista = [];
 
 window.addEventListener("DOMContentLoaded", async () => {
   const response = await axios.get(`http://localhost:3000/servidores`);
@@ -33,16 +36,19 @@ const open = () => {
   console.log("WebSocket abierto.");
 };
 
-const message = async (evento) => {
+const message = (evento) => {
   // Se recibe un mensaje
   console.log("WebSocket ha recibido un mensaje");
-  // Mostrar mensaje en HTML
-  const mensajeRecibido = await evento.data;
-  misRespuestas.innerHTML = misRespuestas.innerHTML.concat(
-    mensajeRecibido,
-    "<br>"
-  );
+  miMsg.innerHTML = "Tienes mensajes nuevos";
+  lista.push(evento.data);
 };
+botonNuevos.addEventListener("click", () => {
+  miMsg.innerHTML = "";
+  lista.map((x) => {
+    misRespuestas.innerHTML += x.concat("<br/>");
+  });
+  lista = [];
+});
 
 const error = (evento) => {
   // Ha ocurrido un error
