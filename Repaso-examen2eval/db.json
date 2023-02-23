@@ -1,0 +1,89 @@
+{
+  "conf": [
+    {
+      "id": 1,
+      "tipo": "profesor"
+    },
+    {
+      "id": 2,
+      "tipo": "alumno"
+    }
+  ],
+  "personas": [
+    {
+      "id": "10",
+      "nombre": "Desiri",
+      "tipo": "profesor"
+    },
+    {
+      "id": "11",
+      "nombre": "Danette",
+      "tipo": "alumno"
+    },
+    {
+      "id": "1",
+      "nombre": "Norma",
+      "tipo": "profesor"
+    },
+    {
+      "id": "9",
+      "nombre": "Julissa",
+      "tipo": "profesor"
+    },
+    {
+      "id": "7",
+      "nombre": "Debbi",
+      "tipo": "alumno"
+    },
+    {
+      "id": "12",
+      "nombre": "Theodora",
+      "tipo": "profesor"
+    },
+    {
+      "id": "15",
+      "nombre": "Lurline",
+      "tipo": "alumno"
+    },
+    {
+      "id": "3",
+      "nombre": "Pascal",
+      "tipo": "alumno"
+    },
+    {
+      "id": "4",
+      "nombre": "Susanetta",
+      "tipo": "profesor"
+    },
+    {
+      "id": "5",
+      "nombre": "Marylou",
+      "tipo": "profesor"
+    },
+    {
+      "id": "6",
+      "nombre": "Gian",
+      "tipo": "alumno"
+    },
+    {
+      "id": "2",
+      "nombre": "Claudie",
+      "tipo": "profesor"
+    },
+    {
+      "id": "14",
+      "nombre": "Prudy",
+      "tipo": "profesor"
+    },
+    {
+      "id": "13",
+      "nombre": "Angeline",
+      "tipo": "alumno"
+    },
+    {
+      "id": "8",
+      "nombre": "Dud",
+      "tipo": "alumno"
+    }
+  ]
+}
