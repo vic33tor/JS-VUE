@@ -1,0 +1,12 @@
+{
+  "Centros": [
+    {
+      "id": 1,
+      "nombre": "IES Villaverde"
+    },
+    {
+      "id": 2,
+      "nombre": "IES El Espinillo"
+    }
+  ]
+}
